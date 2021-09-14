@@ -8,7 +8,7 @@ class Parser:
     def valid_extention(self, extension):
         return extension in self.extensions
 
-    def parse(self, source, dest):
+    def parse(self, path: Path, source: Path, dest: Path):
         raise NotImplementedError
     
     def read(self, path):
