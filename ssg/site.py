@@ -35,5 +35,5 @@ class Site:
             )
 
 @staticmethod
-def error(message):
-    sys.stderr.write("\x1b[1;31m{}\n".format(message))
+    def error(message):
+        sys.stderr.write("\x1b[1;31m{}\n".format(message))
