@@ -34,6 +34,6 @@ class Site:
                 "No parser for the {} extension, file skipped!".format(path.suffix)
             )
 
-@staticmethod
+    @staticmethod
     def error(message):
         sys.stderr.write("\x1b[1;31m{}\n".format(message))
